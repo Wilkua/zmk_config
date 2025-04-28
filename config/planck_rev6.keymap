@@ -17,7 +17,7 @@
     behaviors {
         ct: caps_tap {
             compatible = "zmk,behavior-hold-tap";
-            binding-calls = <2>;
+            binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             bindings = <&kp>, <&caps_word>;
