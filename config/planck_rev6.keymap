@@ -61,10 +61,10 @@
         adjust {
             display-name = "Adjust";
             bindings = <
-                &trans    &sys_reset &trans   &trans        &trans        &trans &trans           &trans           &trans         &trans         &trans &trans
+                &trans    &sys_reset &trans   &trans        &trans        &trans &trans           &trans           &trans         &trans            &trans &trans
                 &kp RCTRL &trans     &trans   &kp LG(EQUAL) &kp LG(MINUS) &trans &kp LC(LA(LEFT)) &kp LC(LA(DOWN)) &kp LC(LA(UP)) &kp LC(LA(RIGHT)) &trans &trans
-                $kp RSHFT &trans     &trans   &trans        &trans        &trans &trans           &trans           &trans         &trans         &trans &trans
-                &trans    &trans     &kp RGUI &kp RALT      &trans        &trans &trans           &trans           &trans         &trans         &trans &trans
+                &kp RSHFT &trans     &trans   &trans        &trans        &trans &trans           &trans           &trans         &trans            &trans &trans
+                &trans    &trans     &kp RGUI &kp RALT      &trans        &trans &trans           &trans           &trans         &trans            &trans &trans
             >;
         };
 
